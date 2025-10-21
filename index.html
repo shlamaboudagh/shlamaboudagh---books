@@ -1,26 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- SEO Meta Tags -->
-<meta name="title" content="Shlama Boudagh Books | Official Author Website">
-<meta name="description" content="Explore the novels by Shlama Boudagh, including 'Are You Sure?' — a gripping thriller available on Amazon. Learn more about the author, his journey, and future releases.">
-<meta name="keywords" content="Shlama Boudagh, Are You Sure, Shlama Boudagh Books, Shlama Boudagh Author, Spiral Trilogy, thriller book, Michigan author, Amazon books, UM Flint writer">
-<meta name="author" content="Shlama Boudagh">
-<meta name="robots" content="index, follow">
-<meta property="og:title" content="Shlama Boudagh Books | Official Author Website">
-<meta property="og:description" content="Discover 'Are You Sure?' and future works by author Shlama Boudagh. Visit to explore his storytelling and background.">
-<meta property="og:image" content="https://www.shlamaboudaghbooks.com/Book%20Picture.jpg">
-<meta property="og:url" content="https://www.shlamaboudaghbooks.com/">
-<meta name="twitter:card" content="summary_large_image">
-<meta property="og:type" content="website">
-<meta property="fb:app_id" content="1234567890">
-
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Shlama Boudagh's Books</title>
-  <meta name="description" content="Official author site for Shlama Boudagh. Explore books, read the description of Are You Sure?, and buy on Amazon." />
+  <title>Shlama Boudagh Books | Official Author Website</title>
+
+  <!-- Favicon (appears in browser tab & Google search) -->
+  <link rel="icon" type="image/png" href="Book%20Picture.jpg" />
+
+  <!-- Primary SEO -->
+  <meta name="description" content="Explore the novels by Shlama Boudagh, including 'Are You Sure?' — a gripping thriller available on Amazon. Learn about the author, his journey, and future releases.">
+  <meta name="keywords" content="Shlama Boudagh, Are You Sure, Spiral Trilogy, thriller novel, Michigan author, Amazon books, UM Flint writer">
+  <meta name="author" content="Shlama Boudagh">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook / Discord -->
+  <meta property="og:title" content="Shlama Boudagh Books | Official Author Website">
+  <meta property="og:description" content="Discover 'Are You Sure?' and future works by author Shlama Boudagh. Explore his storytelling and background.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.shlamaboudaghbooks.com/">
+  <meta property="og:image" content="https://www.shlamaboudaghbooks.com/Book%20Picture.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Shlama Boudagh Books | Official Author Website">
+  <meta name="twitter:description" content="Explore thrillers by Shlama Boudagh, including 'Are You Sure?'.">
+  <meta name="twitter:image" content="https://www.shlamaboudaghbooks.com/Book%20Picture.jpg">
+
+  <!-- Google Verification (if used) -->
+  <meta name="google-site-verification" content="vq1Q2WKuhUuzwCdRlVqFtRbfoU-Rcgw26eQGkhn4G5U" />
+
+  <!-- Theme color for mobile browsers -->
   <meta name="theme-color" content="#0f172a" />
+
   <style>
     :root {
       --bg: #0b1020;
@@ -30,75 +44,82 @@
       --accent2: #a78bfa;
       --btn: #0ea5e9;
     }
-    *{box-sizing:border-box;}
-    body{
-      margin:0;
-      font-family:system-ui,Arial,sans-serif;
-      color:var(--text);
-      background:var(--bg);
-      line-height:1.6;
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
     }
-    a{color:var(--accent);text-decoration:none;}
-    a:hover{text-decoration:underline;}
-    header{
-      background:#11172b;
-      padding:20px 0;
-      text-align:center;
-      font-size:1.4em;
-      font-weight:700;
-      background:linear-gradient(90deg,var(--accent),var(--accent2));
-      -webkit-background-clip:text;
-      -webkit-text-fill-color:transparent;
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header {
+      background: #11172b;
+      padding: 20px 0;
+      text-align: center;
+      font-size: 1.4em;
+      font-weight: 700;
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
-    main{max-width:1000px;margin:auto;padding:20px;}
-    .book-section, .about-section{
-      background:#11172b;
-      border-radius:15px;
-      padding:30px;
-      margin-bottom:30px;
-      box-shadow:0 0 10px rgba(0,0,0,.3);
+    main { max-width: 1000px; margin: auto; padding: 20px; }
+    .book-section, .about-section {
+      background: #11172b;
+      border-radius: 15px;
+      padding: 30px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,.3);
     }
-    .book{
-      display:grid;
-      grid-template-columns:1fr 1fr;
-      gap:20px;
-      align-items:center;
+    .book {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      align-items: center;
     }
-    .book img{
-      width:100%;
-      border-radius:10px;
-      border:1px solid rgba(255,255,255,.1);
+    .book img {
+      width: 100%;
+      border-radius: 10px;
+      border: 1px solid rgba(255,255,255,.1);
     }
-    .book h2{margin-top:0;}
-    .book p{color:var(--muted);}
-    .button{
-      background:var(--btn);
-      color:white;
-      padding:10px 18px;
-      border-radius:8px;
-      font-weight:600;
-      display:inline-block;
+    .book h2 { margin-top: 0; }
+    .book p { color: var(--muted); }
+    .button {
+      background: var(--btn);
+      color: white;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-weight: 600;
+      display: inline-block;
     }
-    .button:hover{opacity:.8;}
-    .about{
-      display:grid;
-      grid-template-columns:1fr 1fr;
-      gap:20px;
-      align-items:center;
+    .button:hover { opacity: .8; }
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      align-items: center;
     }
-    .about img{
-      width:100%;
-      border-radius:10px;
-      border:1px solid rgba(255,255,255,.1);
+    .about img {
+      width: 100%;
+      border-radius: 10px;
+      border: 1px solid rgba(255,255,255,.1);
     }
-    footer{text-align:center;color:var(--muted);padding:30px 0;border-top:1px solid rgba(255,255,255,.1);}
+    footer {
+      text-align: center;
+      color: var(--muted);
+      padding: 30px 0;
+      border-top: 1px solid rgba(255,255,255,.1);
+    }
     @media(max-width:768px){
-      .book,.about{grid-template-columns:1fr;}
+      .book, .about { grid-template-columns: 1fr; }
     }
   </style>
 </head>
+
 <body>
   <header>Shlama Boudagh’s Books</header>
+
   <main>
     <section class="book-section">
       <div class="book">
@@ -106,7 +127,7 @@
         <div>
           <h2>Are You Sure?</h2>
           <p><strong>Psychological Thriller • Paperback • 5×8 • 264 pages • $12.00</strong></p>
-          <p>A city gripped by a series of perfect, trace‑less murders. A signature spiral no one can explain. When Evan and his friends begin to see the pattern tightening around them, every clue pulls them deeper into a design that feels personal—and deadly. <em>Are You Sure?</em> blends obsession, guilt, and identity into a tense psychological maze where each answer only leads further into the spiral.</p>
+          <p>A city gripped by a series of perfect, trace-less murders. A signature spiral no one can explain... <em>Are You Sure?</em> blends obsession, guilt, and identity into a tense psychological maze where each answer only leads further into the spiral.</p>
           <a href="https://www.amazon.com/Are-You-Sure-Shlama-Boudagh/dp/B0FTLJQYYY" class="button" target="_blank">Buy on Amazon</a>
         </div>
       </div>
@@ -114,15 +135,18 @@
 
     <section class="about-section">
       <div class="about">
-        <img src="Book Picture.jpg" alt="Photo of Shlama Boudagh">
+        <img src="Book%20Picture.jpg" alt="Photo of Shlama Boudagh">
         <div>
           <h2>About the Author</h2>
-          <p>Shlama Boudagh is a passionate storyteller with a love for both the written word and the game of soccer. When he’s not crafting suspenseful narratives, he can be found coaching on the field, sharing his dedication and energy with his players. He is currently pursuing his Bachelor’s degree in Mechanical Engineering at the University of Michigan – Flint, driven by a fascination for design and problem-solving.</p>
-          <p>Proudly Chaldean/Assyrian, Shlama draws inspiration from his heritage and the values instilled by his parents, Khairy and Suereth Boudagh. He is the eldest of four siblings—Shayna, Yona, and Shupra—whose encouragement fuels his creative and academic ambitions. Through both his writing and his life, Shlama strives to blend discipline, creativity, and community into everything he does.</p>
+          <p>Shlama Boudagh is a passionate storyteller with a love for both the written word and the game of soccer... He is currently pursuing his Bachelor’s degree in Mechanical Engineering at the University of Michigan – Flint.</p>
+          <p>Proudly Chaldean/Assyrian, Shlama draws inspiration from his heritage and the values instilled by his parents, Khairy and Suereth Boudagh. He is the eldest of four siblings—Shayna, Yona, and Shupra—whose encouragement fuels his creative and academic ambitions.</p>
         </div>
       </div>
     </section>
   </main>
-  <footer>© <script>document.write(new Date().getFullYear())</script> Shlama Boudagh · All rights reserved</footer>
+
+  <footer>
+    © <script>document.write(new Date().getFullYear())</script> Shlama Boudagh · All rights reserved
+  </footer>
 </body>
 </html>
